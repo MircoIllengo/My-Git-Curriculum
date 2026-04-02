@@ -5,7 +5,7 @@ There is a video demo of the working map and also my pdf presentation of the pro
 
 This 3-months-program has thoroughly trained me. I've learned to adapt myself at every situation/unknown (to me) tecnology. It was long and hard, but so useful, first to learn about these tecnologies, then to grow as a full-stack developer.
 
-However, the project technology stack is buildt like this:
+Anyways, the project technology stack is buildt like this:
  - SvelteKit frontend on which we mount a MapLibre GL JS map, that makes the requestes to the tileserver and displays vector tiles
  - FastAPI Tileserver with some responsability-organized python files, such as tilemath (for the intra-tile calculations) or the db initializer. This makes SQL queries to the db and returns mvt tiles (encapsulated into HTTP response)
  - Duckdb (spatial extension) database, which allows me to build tiles database-side and on-demand (on-the-fly).
